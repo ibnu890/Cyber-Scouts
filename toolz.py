@@ -55,7 +55,7 @@ def password():
         print("\n\n[*] User keluar.")
         print("[*] aplikasi di matikan !!")
         sys.exit(1)
-    if sandi == 'ibnu':
+    if sandi == 'Cyber-Scouts':
         print '||SelamaT||'
     else:
         print 'Username atau Password Anda Salah',exit()
