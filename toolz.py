@@ -84,7 +84,6 @@ def menu():
     print(""+ bc.M + "["+ bc.B +"03"+ bc.M +"]"+ bc.M +" Wp_tema "+ bc.H +""+ bc.ENDC +"")
     print(""+ bc.M + "["+ bc.B +"04"+ bc.M +"]"+ bc.M +" wp plugins"+ bc.H +""+ bc.ENDC +"")
     print(""+ bc.M + "["+ bc.B +"05"+ bc.M +"]"+ bc.M +" Admin_findler"+ bc.H +""+ bc.ENDC +"")
-    print(""+ bc.M + "["+ bc.B +"06"+ bc.M +"]"+ bc.M +" decryptor file"+ bc.H +""+ bc.ENDC +"")
     print(""+ bc.M + "["+ bc.B +"07"+ bc.M +"]"+ bc.M +" IP scaner"+ bc.H +""+ bc.ENDC +"")
     print ""
 def encode_base64():
@@ -1306,8 +1305,6 @@ elif pilih == 4:
 elif pilih == 5:
     adminfindler()
 elif pilih == 6:
-    kunci()
-elif pilih == 7:
     ip_scan()
 elif pilih == 00:
     e = raw_input("Keluar ? | (Y/T)")
